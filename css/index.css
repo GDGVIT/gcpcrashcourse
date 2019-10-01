@@ -227,6 +227,8 @@ body{
 
     .main-about h1{
         font-size: 1.5em;
+        width: 90%;
+        margin:auto auto;
     }
 
     .main-about p{
