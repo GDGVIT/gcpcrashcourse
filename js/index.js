@@ -14,7 +14,7 @@ $(document).ready(function(){
     })
 
     $('.android').click(function(){
-        window.open('https://bit.ly/vitgcpandroid')
+        window.open('https://bit.ly/vitgcpapp')
     })
 
     $('.ml').click(function(){
