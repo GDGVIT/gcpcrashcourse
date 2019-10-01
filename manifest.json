@@ -24,8 +24,8 @@
         "type": "image/png"
       }
     ],
+    "scope":"/app/",
     "start_url": "/app/",
-    "gcm_sender_id": "103953800507",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#4D95FB"
