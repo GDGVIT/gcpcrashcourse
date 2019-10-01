@@ -1,0 +1,77 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url('../images/Background.svg') center center no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.main-content-holder{
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.main-content-holder h1{
+    font-size: 4em;
+    text-align: center;
+    color: #141414;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+.dsc-logo{
+    height: 10%;
+    width: 30%;
+    background: url('../images/FullTextLogo.svg') center center no-repeat;
+    background-size:100% auto;
+    margin: auto auto;
+}
+
+.know-more-button{
+    background: #4D95FB;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin:auto auto;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #4D95FB;
+    transition: all .3s ease;
+}
+
+.know-more-button:hover{
+    background: #ffffff;
+    color: #4D95FB;
+}
+@media only screen and (max-width:920px){
+    .main{
+        background: url('../images/BackgroundPhone.svg') center center no-repeat;
+        background-size: cover;
+    }
+
+    .main-content-holder h1{
+        font-size: 2em;
+    }
+}
