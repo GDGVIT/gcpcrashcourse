@@ -15,7 +15,9 @@ var filesToCache = [
   'images/Pen.svg',
   'images/StepOne.svg',
   'images/StepTwo.svg',
-  'images/StepThree.svg'
+  'images/StepThree.svg',
+  'icons/favicons/icon-512x512.png',
+  'icons/favicons/favicon.ico'
 ];self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
