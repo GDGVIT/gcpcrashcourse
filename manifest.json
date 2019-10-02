@@ -24,7 +24,6 @@
         "type": "image/png"
       }
     ],
-    "scope":"/app/",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#FFFFFF",
