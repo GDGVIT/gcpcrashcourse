@@ -70,6 +70,27 @@ body{
     color: #4D95FB;
 }
 
+.enroll-button{
+    background: #4D95FB;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin:auto auto;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #4D95FB;
+    transition: all .3s ease;
+}
+
+.enroll-button:hover{
+    background: #ffffff;
+    color: #4D95FB;
+}
+
 .main-about{
     width: 100%;
     height: auto;
@@ -205,6 +226,92 @@ body{
     background: url('../images/StepThree.svg') center center;
     background-size: cover;
 }
+
+.modal{
+    height: auto;
+    width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    background:url('../images/Background.svg') center center;
+    background-size: cover;
+    border-radius: 6px;
+    overflow: scroll;
+    max-width: 1000px;
+    max-height: 800px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
+
+.modal-top-bar{
+    height: 15%;
+    width: 100%;
+    text-align: right;
+}
+
+.modal-main a:focus{
+    color: #4D95FB;
+    text-decoration:none;
+    font-weight:400;
+}
+
+.modal-main a{
+    color: #4D95FB;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.modal-main p{
+    letter-spacing: 0.07em;
+}
+
+.modal-main .enroll-button{
+    margin: 0px;
+}
+
+.tint{
+    height: 100vh;
+    width: 100%;
+    background: #141414;
+    opacity: 0.8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 98;
+}
+
+#close-modal{
+    color: #141414;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.modal{
+    display: none;
+}
+
+.tint{
+    display: none;
+}
+
+.modal-main-app{
+    display: none;
+}
+
+.modal-main-ml{
+    display: none;
+}
+
+.modal-main-data{
+    display: none;
+}
+
 
 /* Media Queries */
 

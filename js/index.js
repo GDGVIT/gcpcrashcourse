@@ -9,17 +9,40 @@ $(document).ready(function(){
 
     // Link click actions
 
+    $('#close-modal').click(function(){
+        $('.modal-main-data').fadeOut(300);
+        $('.modal-main-app').fadeOut(300);
+        $('.modal-main-ml').fadeOut(300);
+        $('.modal').fadeOut(300);
+        $('.tint').fadeOut(300);
+    })
+
+    $('.tint').click(function(){
+        $('.modal-main-data').fadeOut(300);
+        $('.modal-main-app').fadeOut(300);
+        $('.modal-main-ml').fadeOut(300);
+        $('.modal').fadeOut(300);
+        $('.tint').fadeOut(300);
+    })
+
     $('.data').click(function(){
-        window.open('https://bit.ly/vitgcpdata')
+        $('.modal-main-data').fadeIn(0);
+        $('.tint').fadeIn(400)
+        $('.modal').fadeIn(400);
     })
 
     $('.android').click(function(){
-        window.open('https://bit.ly/vitgcpapp')
+        $('.modal-main-app').fadeIn(0);
+        $('.tint').fadeIn(400)
+        $('.modal').fadeIn(400);
     })
 
     $('.ml').click(function(){
-        window.open('https://bit.ly/vitgcpdata')
+        $('.modal-main-ml').fadeIn(0);
+        $('.tint').fadeIn(400)
+        $('.modal').fadeIn(400);
     })
+
 
 })
 
