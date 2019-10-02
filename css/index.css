@@ -264,6 +264,7 @@ body{
     color: #4D95FB;
     text-decoration:none;
     font-weight:700;
+    margin-left: 15px;
 }
 
 .modal-main p{
@@ -288,6 +289,7 @@ body{
 #close-modal{
     color: #141414;
     font-weight: 700;
+    text-decoration: underline;
     cursor: pointer;
     font-size: 1.5em;
 }
@@ -342,4 +344,34 @@ body{
         font-size: 0.8em;
         line-height: 1.5rem;
     }
-}
+
+    .modal-main p{
+        font-size: 0.65em;
+    }
+
+    .modal-main h3{
+        font-size: 0.9em;
+    }
+
+    .modal-main h1{
+        font-size: 1.2em;
+    }
+
+    #close-modal{
+        font-size: 1em;
+    }
+
+    .enroll-button{
+        background: #4D95FB;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        width: 120px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 6px;
+        margin:auto auto;
+        margin-top: 20px;
+        cursor: pointer;
+        border: 1px solid #4D95FB;
+    }
