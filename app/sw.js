@@ -4,7 +4,18 @@ var filesToCache = [
   '/index.html',
   'css/index.css',
   'js/index.js',
-  'images/'
+  'images/Android.svg',
+  'images/BackgroundPhone.svg',
+  'images/Background.svg',
+  'images/Certification.svg',
+  'images/Data.svg',
+  'images/FullTextLogo.svg',
+  'images/Hoodie.svg',
+  'images/ML.svg',
+  'images/Pen.svg',
+  'images/StepOne.svg',
+  'images/StepTwo.svg',
+  'images/StepThree.svg'
 ];self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
