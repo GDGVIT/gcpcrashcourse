@@ -131,6 +131,15 @@ body{
     cursor: pointer;
 }
 
+.icon-holder-two{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
 .icon{
     height: 150px;
     width: 150px;
@@ -151,13 +160,12 @@ body{
     margin-top: 15px;
 }
 
-.icon-holder-two{
+.icon-holder-three{
     height: auto;
     width: auto;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 35px;
-    cursor: pointer;
 }
 
 .icon-two{
