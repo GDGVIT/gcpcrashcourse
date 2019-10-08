@@ -146,6 +146,7 @@ body{
     border-radius: 50%;
     transform: scale(1);
     transition: .3s ease;
+    margin:auto auto;
 }
 
 .icon:hover{
